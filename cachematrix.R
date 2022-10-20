@@ -1,5 +1,7 @@
-## The functions that follow will create a matrix and calculate the total
-## I set the matrix of the function as "x" and set the solve value of "d" 
+## The functions that follow will 
+##create a matrix and calculate the total
+## I set the matrix of the function as 
+##"x" and set the solve value of "d" 
 ## to NULL
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -15,7 +17,9 @@ d <- NULL
              setinverse = setinverse, 
              getinverse = getinverse)
 }
-## 'V' should now give us the inverse of the matrix
+
+## 'V' should now give us 
+##the inverse of the matrix
 cacheSolve <- function(x, ...) {
        V <- x$getinverse()
         if(!isnull(V)) {
